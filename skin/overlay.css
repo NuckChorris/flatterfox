@@ -1,0 +1,9 @@
+tabs.tabbrowser-tabs > tab.tabbrowser-tab {
+	background-image: none;
+	padding: 0px 5px;
+	border: none;
+	border-radius: 0;
+}
+page, *|*:root {
+	background-image: none;
+}

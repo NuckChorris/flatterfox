@@ -1,0 +1,4 @@
+tabs.tabbrowser-tabs > tab.tabbrowser-tab, page {
+	background-color: #{styles.bgcolor} !important;
+	color: #{styles.fgcolor} !important;
+}

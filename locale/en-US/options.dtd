@@ -1,0 +1,8 @@
+<!ENTITY style.bgcolor.name "Background Color">
+<!ENTITY style.bgcolor.desc "The primary background color for the style">
+<!ENTITY style.fgcolor.name "Foreground Color">
+<!ENTITY style.fgcolor.desc "The foreground color for the style">
+<!ENTITY style.fontfamily.name "Font Family">
+<!ENTITY style.fontfamily.desc "The CSS3-compatible font family string for the browser.">
+<!ENTITY style.hidefavicons.name "Hide Favicons">
+<!ENTITY style.hidefavicons.desc "Determines whether favicons are displayed on tabs.">

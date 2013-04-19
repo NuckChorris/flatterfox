@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+<Description about="urn:mozilla:install-manifest">
+	<em:id>flatterfox@nuck</em:id>
+	<em:version>1.0</em:version>
+	<em:type>2</em:type>
+	<em:optionsType>1</em:optionsType>
+	<em:optionsURL>chrome://flatterfox/content/options.xul</em:optionsURL>
+
+	<!-- Target Application this extension can install into,
+	with minimum and maximum supported versions. -->
+	<em:targetApplication>
+		<Description>
+			<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+			<em:minVersion>7.0</em:minVersion>
+			<em:maxVersion>20.*</em:maxVersion>
+		</Description>
+	</em:targetApplication>
+
+	<!-- Front End MetaData -->
+	<em:name>Flatterfox</em:name>
+	<em:description>Ahoka-inspired customizable theming extension for Firefox.</em:description>
+	<em:creator>Nuck</em:creator>
+	<em:homepageURL>http://plejeck.com/p/flatterfox</em:homepageURL>
+	<!-- <em:iconURL>chrome://flatterfox/skin/options/icon.svg</em:iconURL> -->
+</Description>      
+</RDF>

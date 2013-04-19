@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+  
+<prefwindow id="flatterfox-prefs" title="FlatterFox Options" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"> 
+	<prefpane id="flatterfox-pref-color-pane" label="Color Settings">
+		<preferences>
+			<preference id="pref_fgcolor" name="extensions.flatterfox.styles.fgcolor" type="string"/>
+			<preference id="pref_bgcolor" name="extensions.flatterfox.styles.bgcolor" type="string"/>
+		</preferences>
+
+		<hbox align="center">
+			<label control="fgcolor" value="Foreground Color: "/>
+			<textbox preference="pref_fgcolor" id="fgcolor" maxlength="6"/>
+		</hbox>
+		<hbox align="center">
+			<label control="bgcolor" value="Background Color: "/>
+			<textbox preference="pref_bgcolor" id="bgcolor" maxlength="6"/>
+		</hbox>
+	</prefpane>
+</prefwindow>
